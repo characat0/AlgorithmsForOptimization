@@ -2,7 +2,7 @@
 <p align="center">
   <img src="./book.jpg" height=400 alt="Algorithms for Optimization">
 </p>
-Hello, in this repository I will document my notes on the book "Algorithms for Optimization" from Mykel J. Kochenderfer and Tim A. Wheeler using [Pluto.jl](https://github.com/fonsp/Pluto.jl) in Julia.
+Hello, in this repository I will document my notes on the book "Algorithms for Optimization" from Mykel J. Kochenderfer and Tim A. Wheeler using <a href="https://github.com/fonsp/Pluto.jl">Pluto.jl</a> in Julia.
 
 # Chapter 1 - Introduction
 First chapter states that everything in our lives can be optimized, and every optimization problem can be translated into minimizing an objective function.
