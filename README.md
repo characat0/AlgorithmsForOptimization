@@ -8,3 +8,6 @@ First chapter states that everything in our lives can be optimized, and every op
 
 # [Chapter 2 - Derivatives and Gradients](https://marcovela.github.io/AlgorithmsForOptimization/chapter-2/)
 Second chapter introduce the notion of derivatives in multiple dimensions and how to approximate derivatives using numerical methods, noting that the use of the dual numbers and the complex step method can give us great approximations compared with traditional methods.
+
+# [Chapter 3 - Bracketing](https://marcovela.github.io/AlgorithmsForOptimization/chapter-3/)
+Third chapter presents method for finding intervals which contain a local minimum and how to reduce it (approximating the minimal), these methods have different constraints, Fibonacci search is constrainted by the number of times we can call the function, Quadratic search by how well can a parabola fit a bracket and Shubert-Piyavskii method by the requirement of an upper bond of the derivative of f in the bracket interval.
