@@ -107,9 +107,9 @@ begin
 	forward_err = abs.([diff_forward(f₄,val; h=h) for h in h₄].-ground)
 	central_err = abs.([diff_central(f₄,val; h=h) for h in h₄].-ground)
 	
-	plot(h₄, complex_err; xscale=:log, yaxis=(:log10, (1e-20,10)), c=:green, label="complex")
-	plot!(h₄, forward_err; xscale=:log, yaxis=(:log10, (1e-20,10)), c=:blue, label="forward")
-	plot!(h₄, central_err; xscale=:log, yaxis=(:log10, (1e-20,10)), c=:red, label="central")
+	plot(h₄, complex_err; xscale=:log10, yaxis=(:log10, (1e-20,10)), c=:green, label="complex")
+	plot!(h₄, forward_err; xscale=:log10, yaxis=(:log10, (1e-20,10)), c=:blue, label="forward")
+	plot!(h₄, central_err; xscale=:log10, yaxis=(:log10, (1e-20,10)), c=:red, label="central")
 end
 
 # ╔═╡ 003399ae-0ea0-11eb-071d-fb202e1e6c0f
