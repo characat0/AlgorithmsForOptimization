@@ -11,3 +11,6 @@ Second chapter introduce the notion of derivatives in multiple dimensions and ho
 
 # [Chapter 3 - Bracketing](https://marcovela.github.io/AlgorithmsForOptimization/chapter-3/)
 Third chapter presents method for finding intervals which contain a local minimum and how to reduce it (approximating the minimal), these methods have different constraints, Fibonacci search is constrainted by the number of times we can call the function, Quadratic search by how well can a parabola fit a bracket and Shubert-Piyavskii method by the requirement of an upper bond of the derivative of f in the bracket interval.
+
+# [Chapter 3 - Local Descent](https://marcovela.github.io/AlgorithmsForOptimization/chapter-4/)
+Fourth chapter presents method for finding directions and steps sizes for reaching a local minimum of a multivariate function. Finding optimal direction and step sizes are in its own optimization problems. The Line Search method uses a given direction to optimize the step size to a set of conditions (Wolfe conditions) or can create a univariate optimization problem (optimize step size alpha). Trust region method uses a given step size, finding the smaller point in that region, contracting or expanding according to certain criteria.
