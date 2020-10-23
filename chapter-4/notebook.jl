@@ -105,11 +105,11 @@ function line_search(f, x, d)
 	x + α*d
 end
 
-# ╔═╡ e1b8f540-12f3-11eb-1aa6-ed28dd3748b8
-f₁(x, y) = (1-x)^2 + 5(y - x^2)^2
-
-# ╔═╡ 08d112f0-12f1-11eb-3ec7-bdda6f6eb3e6
-f₁(x̄) = f₁(x̄...)
+# ╔═╡ e0c7ff80-13f9-11eb-2b71-f1e33226bf6a
+begin
+	f₁(x, y) = (1-x)^2 + 5(y - x^2)^2
+	f₁(x̄) = f₁(x̄...)
+end
 
 # ╔═╡ 8f9f3260-12f3-11eb-18a3-571a47653d95
 begin
@@ -436,8 +436,7 @@ opt_α = backtracking_line_search(f₅, Calculus.gradient(f₅), [-1, -1], [1, 0
 # ╠═22c726a0-12f0-11eb-0ba6-5da513dbc281
 # ╠═0269168e-12ee-11eb-3dd1-77d75ba692a9
 # ╠═754bd8f0-12f3-11eb-3530-b976559c01e3
-# ╠═e1b8f540-12f3-11eb-1aa6-ed28dd3748b8
-# ╠═08d112f0-12f1-11eb-3ec7-bdda6f6eb3e6
+# ╠═e0c7ff80-13f9-11eb-2b71-f1e33226bf6a
 # ╠═8f9f3260-12f3-11eb-18a3-571a47653d95
 # ╟─496a7360-12f6-11eb-0a39-0db347ba7df9
 # ╟─0835eac0-12f9-11eb-097e-9903d7e61752
